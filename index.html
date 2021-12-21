@@ -9,6 +9,23 @@
  rel="stylesheet"/>
 </head>
 <body>
+<script>
+   function search_animal() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('search_contents');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+  </script>
+
  <div class="navigation-bar">
    <nav>
 		   <strong>
@@ -22,7 +39,7 @@
 	 	   </strong>
     </nav>
   </div>
-	<form name="search" method="POST" data-netlify="true">
+	<!--<form name="search" method="POST" data-netlify="true">
 	  <div class=mysearch>
 	    <input type="search" id="mySearch" name="q"
       placeholder="artist, author, tittle.."
@@ -36,7 +53,7 @@
 	    </span>
 	    <button >Search </button >
 	  </div>
-</form >	
+</form >-->	
 <h4>TRENDINGS:</h4>
 		<!--	
 		hint for an article posting here!.
@@ -44,17 +61,16 @@
 		<article>
 	<a href="video/.html">
 <img src="image/.png"
-		width="50" height="50">
-			: whatch video
-		</a>
-			</article>
-					<article>
-							-->
-  <p><strong><i>Videos...</i></strong</p>
-			 <p><strong><i>Musics...</i></strong></p>
-					<p><strong><i>Galleries...</i></strong</p>
-					<p><strong><i>News...</i></strong</p>
-			<h4><em>NOTE:</em></h4> 
+width="50" height="50">
+: whatch video
+</a>
+</article>
+<article>
+-->
+<p><strong><i>Videos...</i></strong</p>
+ <p><strong><i>Musics...</i></strong></p>
+<p><strong><i>News...</i></strong</p>
+<h4><em>NOTE:</em></h4> 
  <p>This site is under construction, for complains
      and other observation, please we will
      appreciate if you
@@ -62,10 +78,10 @@
      anything! your entertainment
      is our 
        high priority)</i></strong>
-					  </p>
-				<h4>please comment to 
-				  the email below.
-				</h4>
+  </p>
+<h4>please comment to 
+  the email below.
+</h4>
 <!--<div class="container">
 <form name="contact" method="POST" data-netlify="true">
     <label for="Name">Name:
