@@ -104,7 +104,7 @@ mysearch{
   width:20ppx;
 }
 .search_contents {
-color:gray;
+text-color:gray;
 font:family;
 text-decoration:none;
 } 
