@@ -103,3 +103,8 @@ mysearch{
   text-align: center;
   width:20ppx;
 }
+.search_contents {
+color:gray;
+font:family;
+text-decoration:none;
+} 
