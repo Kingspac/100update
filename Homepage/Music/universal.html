@@ -10,69 +10,87 @@
  </style>
 </head>
  <body>
+<script>
+function search_animal() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('search_contents');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+  </script>
   <div>
    <article>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/tekno-puTTin.html">Tekno_puTTin mp3</a>
+      <ul id='list'>
+    <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/tekno-puTTin.html"><p class="search_contents>Tekno_puTTin mp3</p></a>
       <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html"><p class="search_contents>Namenj_Aure mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_baby_nagode.html">Namenj_Baby_Nagode mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_baby_nagode.html"><p class="search_contents> Namenj_Baby_Nagode mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_sai_dake.html">Namenj_Sai_Dake mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_sai_dake.html"><p class="search_contents>Namenj_Sai_Dake mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/reekado_banks_ozumba_mbadiwe.html">Reekado_Banks_Ozumba_Mbadiwe mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/reekado_banks_ozumba_mbadiwe.html"><p class="search_contents>Reekado_Banks_Ozumba_Mbadiwe mp3</p></a>
      <br> 
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/ice_prince_kolo_ft_oxlade.html">Ice_Prince_Kolo_Ft_Oxlade mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/ice_prince_kolo_ft_oxlade.html"><p class="search_contents>Ice_Prince_Kolo_Ft_Oxlade mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/joeboy_count_me_out.html">Joeboy_Count_Me_Out mp3</a>
+     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/joeboy_count_me_out.html"><p class="search_contents>Joeboy_Count_Me_Out mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/joeboy_runaway.html">Joeboy_Runaway mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/joeboy_runaway.html"><p class="search_contents>Joeboy_Runaway mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/joeboy_show_me.html">Joeboy_Show_Me mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/joeboy_show_me.html"><p class="search_contents>Joeboy_Show_Me mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/nandy_ft_joeboy_number_one.html">Nandy_Ft_Joeboy_Number_One mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/<p class="nandy_ft_joeboy_number_one.html"><p class="search_contents>Nandy_Ft_Joeboy_Number_One mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/olamide_greenlight.html">Olamide_Greenlight mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/olamide_greenlight.html"><p class="search_contents>Olamide_Greenlight mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/Victor_Ad_Olofofo.html">Victor_AD_Olofofo mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/Victor_Ad_Olofofo.html"><p class="search_contents>Victor_AD_Olofofo mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/Ruger_Bounce.html">Ruger_Bounce mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/Ruger_Bounce.html"><p class="search_contents>Ruger_Bounce mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/Omah_Lah_Understand.html">Omah_Lah_Understand mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/Omah_Lah_Understand.html"><p class="search_contents>Omah_Lah_Understand mp3</p></a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/Adekunle_Gold_Ft_Davido_High.html">Adekunle-Gold-Ft-Davido-High mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/Adekunle_Gold_Ft_Davido_High.html"><p class="search_contents>Adekunle-Gold-Ft-Davido-High mp3</a>
      <!--
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
      <br>
-     <a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
+     <li><a href="https://kingspac.github.io/100update/Homepage/Music/Universal/namenj_aure.html">Namenj_Aure mp3</a>
    -->
+  </ul>
 </article>
   </div>	
  </body>
