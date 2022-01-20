@@ -1,1 +1,1 @@
-sitemap: https://github.com/Kingspac/100update/blob/main/sitemap.xml
+sitemap: https://kingspac.github.io/sitemap.xml
