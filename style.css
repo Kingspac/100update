@@ -7,7 +7,7 @@ text-decoration:none;
 display:block;
 }
 .navigation-bar {
-display:block;
+display:inline-block;
 background-color:#A01B1F;
 text-decoration:none;
 //width:100%;
@@ -21,7 +21,7 @@ text-transform:uppercase;
    
 }
 .table {
-  display: block;
+  display: inline-block;
   float:center;
   align-content: center;
   text-align: center;
@@ -29,7 +29,7 @@ text-transform:uppercase;
     style:normal;
   font-weight:bold;
   strectch:extended;
-  word-spacing: 30%;
+  word-spacing: 20%;
 }
 p {
 font-size:large:
