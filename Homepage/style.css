@@ -46,6 +46,9 @@ h4 {
 color:red;
 text-transform:capitalize;
 }
+h2, h1 {
+color:#FFB6B3;
+} 
 .container {
 display:block;
 width:40%;
