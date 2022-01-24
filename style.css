@@ -1,11 +1,11 @@
 body {
 background-color:#4c0000;
 bckground-image:url("/storage/sdcard0/my code/image/BeautyPlus.jpg");
-//width:100%;
+//width:50%;
 //height:100%  
 cursor:pointer;
 text-decoration:none;
-display:inline-block;
+display:block;
 }
 .navigation-bar {
 display:block;
@@ -98,4 +98,4 @@ mysearch{
   text-align: center;
   width:20ppx;
   
-}
+} 
