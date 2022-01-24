@@ -1,27 +1,27 @@
   body {
 background-color:#4c0000;
 bckground-image:url("/storage/sdcard0/my code/image/BeautyPlus.jpg");
-//width:100%; 
+//width:50%;
+//height:100%  
 cursor:pointer;
 text-decoration:none;
-display:block;
+display:inline-block;
 }
 .navigation-bar {
-display:inline-block;
+display:block;
 background-color:#A01B1F;
 text-decoration:none;
 //width:100%;
 //height:3%;  
-//margin:0%; 
-//padding:2%;
-//border:9%;
+margin:0%; 
+padding:2%;
+border:9%;
 text-transform:uppercase;
   align-content: center;
   text-align: center; 
-   
 }
 .table {
-  display: inline-block;
+  display: block;
   float:center;
   align-content: center;
   text-align: center;
@@ -29,7 +29,7 @@ text-transform:uppercase;
     style:normal;
   font-weight:bold;
   strectch:extended;
-  word-spacing: 20%;
+  word-spacing: 30%;
 }
 p {
 font-size:large:
@@ -45,9 +45,6 @@ h4 {
 color:red;
 text-transform:capitalize;
 }
-   h1, h2{
-    color:#FDC6C6;
- }
 .container {
 display:block;
 width:40%;
@@ -91,9 +88,7 @@ overflow:auto;
 }
 mysearch{
   background-color: greenyellow;
-  #download{
-    color:black;
-  }
+  
 }
 
 .icons{
@@ -101,10 +96,4 @@ mysearch{
   align-content: center;
   text-align: center;
   width:20ppx;
-}
-.search_contents{
-color: gray;
-text-color:gray;
-font:family;
-text-decoration:none;
-} 
+}  
