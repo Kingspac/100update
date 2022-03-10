@@ -1,1 +1,6 @@
 sitemap: https://kingspac.github.io/sitemap.xml
+
+
+
+User-agent: *
+Disallow:
